@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,100&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 39px;
+
+  @media (max-width: 418px) {
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.5);
+      /* establecemos el color de fondo con un 50% de transparencia */
+    }
+  }
+ 
+}
+.carousel-indicators {
+  top: 105%;
+}
+.carousel-indicators li {
+  background-color: #373a3c;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.footer{
+ width: auto;   
+
+}
+
+.titulo{
+  color: black;
+}
+.cambiante {
+  color: red;
+}
+
+
+.underline {
+  text-decoration: underline;
+
+}
+
+.borde{
+
+  border-top-width: 10px
+}
+
+body{font-family: 'Josefin Sans', sans-serif;
+background-color: rgb(250, 219, 239);
+
+
+}
+
+.rojo:hover{color:red}
+.blue:hover{color:blue}
+
+.fa-brands:hover{
+color: green;
+
+}
+
+.gold:hover{
+color: gold;
+
+}
+
+.barrita{
+background-color: rgba(236, 165, 236, 0.911);
+  
+}
+
